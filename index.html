@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{ Cris Gian }</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- Box Icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo">{ Cris Gian }</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#inicio" class="nav__link">Inicio</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">Sobre mi</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#proyectos" class="nav__link">Proyectos</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contacto</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!-- Home -->
+      <section class="home" id="home">
+        <div class="home__container bd-grid">
+          <h1 class="home__title"><span>Ho</span><br />La.</h1>
+
+          <div class="home__scroll">
+            <a href="#sobre" class="home__scroll-link"
+              ><i class="bx bx-up-arrow-alt">Scroll down</i></a
+            >
+          </div>
+
+          <div class="icono"> <p>{C G}</p> </div>
+          <!-- <img src="./image/perfil.jpg" alt="perfil" class="home__img" /> -->
+        </div>
+      </section>
+
+      <!-- Sobre mi -->
+      <section class="about section" id="about">
+        <h2 class="section-title">Sobre mi</h2>
+
+        <div class="about__container bd-grid">
+           <div class="about__img">
+              <img src="./image/perfil.jpg" alt="perfil2">
+            </div>
+
+          <div>
+            <h2 class="about__subtitle">Mi nombre es Cristian Gianoboli</h2>
+            <span class="about__profession">Desarrollador web Full stack</span>
+            <p class="about__text">
+              Soy desarrollador web full stack, tengo experiencia en trabajo
+              freelance, mi pasión es el desarrollo front_end. Me interesan los desafíos, trabajar en equipo, dónde
+              pueda aplicar mis conocimientos, habilidades y perfeccionarlos. Me
+              gustan los retos y así intentar cumplir mis objetivos
+              profesionales, personales.
+            </p>
+
+            <div class="about__social">
+              <a
+                href="https://www.linkedin.com/in/crisgianoboli/"
+                target="_blank"
+                class="about__social-icon"
+                ><i class="bx bxl-linkedin"></i
+              ></a>
+              <a
+                href="https://github.com/crisgianoboli"
+                target="_blank"
+                class="about__social-icon"
+                ><i class="bx bxl-github"></i
+              ></a>
+              <a
+                href="https://dribbble.com/crisgianoboli"
+                target="_blank"
+                class="about__social-icon"
+                ><i class="bx bxl-dribbble"></i
+              ></a>
+            </div>
+
+            <div class="btn-download">
+              <a
+                href="./cv/Cristian Gianoboli.pdf"
+                download="./cv/Cristian Gianoboli.pdf"
+                >Download CV <i class="bx bx-download"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills__container bd-grid">
+          <div class="skills__box">
+            <h3 class="skills_subtitle">Front</h3>
+            <span class="skills_name">Html</span>
+            <span class="skills_name">Css</span>
+            <span class="skills_name">Sass</span>
+            <span class="skills_name">Bootstrap</span>
+            <span class="skills_name">Material UI</span>
+            <span class="skills_name">Javascript</span>
+            <span class="skills_name">React</span>
+
+            <h3 class="skills_subtitle">Diseño</h3>
+            <span class="skills_name">Figma</span>
+
+            <h3 class="skills_subtitle">Back</h3>
+            <span class="skills_name">NodeJs</span>
+            <span class="skills_name">ExpressJs</span>
+            <span class="skills_name">Npm</span>
+
+            <h3 class="skills_subtitle">Herramientas</h3>
+            <span class="skills_name">Slack</span>
+            <span class="skills_name">Trello</span>
+            <span class="skills_name">Git/GitHub</span>
+            <span class="skills_name">Postman</span>
+
+            <h3 class="skills_subtitle">Base de datos</h3>
+            <span class="skills_name">Firebase</span>
+            <span class="skills_name">MySql</span>
+            <span class="skills_name">MongoDB</span>
+          </div>
+
+          <div class="skills__img">
+            <img src="./image/skills.jpeg" alt="skills" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Proyectos -->
+      <section class="portfolio section" id="proyectos">
+        <h2 class="section-title">Proyectos</h2>
+
+        <div class="portfolio__container bd-grid">
+          <div class="portfolio__img">
+            <img src="./image/podcast.png" alt="Podcast" />
+
+            <div class="portfolio__link">
+              <a
+                href="https://github.com/crisgianoboli/PodcastChanel"
+                target="_blank"
+                class="portfolio__link-name"
+                >Ver código</a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio__img">
+            <img src="./image/gifos.png" alt="Gifos" />
+
+            <div class="portfolio__link">
+              <a
+                href="https://github.com/crisgianoboli/ProyectoGifos"
+                target="_blank"
+                class="portfolio__link-name"
+                >Ver código</a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio__img">
+            <img src="./image/marvel.png" alt="Marvel" />
+
+            <div class="portfolio__link">
+              <a
+                href="https://github.com/crisgianoboli/MarvelApp"
+                target="_blank"
+                class="portfolio__link-name"
+                >Ver código</a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio__img">
+            <img src="./image/resto.png" alt="Delilah Resto" />
+
+            <div class="portfolio__link">
+              <a
+                href="https://github.com/crisgianoboli/delilah-resto"
+                target="_blank"
+                class="portfolio__link-name"
+                >Ver código</a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio__img">
+            <img src="./image/todo.png" alt="ToDo App" />
+
+            <div class="portfolio__link">
+              <a
+                href="https://github.com/crisgianoboli/ToDo-App"
+                target="_blank"
+                class="portfolio__link-name"
+                >Ver código</a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio__img">
+            <img src="./image/work3.jpg" alt="ejmp" />
+
+            <div class="portfolio__link">
+              <a href="#" target="_blank" class="portfolio__link-name"
+                >Ver código</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contacto -->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contacto</h2>
+
+        <div class="contact__container">
+          <div class="contact__info">
+            <div>
+              <h3 class="contact__subtitle">Email</h3>
+              <span class="contact__text">crisgianoboli@gmail.com</span>
+            </div>
+
+            <div>
+              <h3 class="contact__subtitle">Telefono</h3>
+              <span class="contact__text">+54 3516639755</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer section">
+      <div class="footer__container">
+        <div class="footer__data">
+          <h2 class="footer__title">Explorar</h2>
+          <ul>
+            <li><a href="#home" class="footer__link">Inicio</a></li>
+            <li><a href="#about" class="footer__link">Sobre mi</a></li>
+            <li><a href="#skills" class="footer__link">Skills</a></li>
+            <li><a href="#proyectos" class="footer__link">Proyectos</a></li>
+            <li><a href="#contact" class="footer__link">Contacto</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__data">
+          <h2 class="footer__title">{ Cristian Gianoboli }</h2>
+          <p class="footer__text">Espero le haya gustado mi website personal</p>
+        </div>
+      </div>
+      <p>Copyright © 2021 Cris Gian. All rights reserved</p>
+    </footer>
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Main Js -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
